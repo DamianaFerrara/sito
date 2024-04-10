@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#DDFFD8;
+    color: #000000;
+    margin: 0;
+    font-family: Averia Serif Libre ;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    font-size: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+header, h1, h2, footer p {
+    font-family: Averia Serif Libre;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+header nav ul, footer nav ul p {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header p {
+    font-weight: bold;
+}
+
+header nav ul a, footer nav ul a p {
+    text-decoration: none;
+    color: #000000;
+}
+
+header nav ul a:hover, footer nav ul a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.info {
+    display: grid;
+    max-width: 1120px;
+    margin: auto;
+    padding: 120px 20px;
+    grid-template-columns: 2fr 1fr;
+    gap: 128px;
+}
+
+.info h1 {
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.colore-1 {
+    background-color: #ffffff; ;
+    padding: 120px 20px;
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+    gap: 100px;
+}
+
+.container .text {
+    width: 60%;
+}
+
+.container .image {
+    width: 25%;
+}
+
+.container .text h2 {
+    font-size: 39px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+}
+
+.container .text p {
+    font-size: 37px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    
+}
+
+
+footer  {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    font-size: 30px;
+}
+  
